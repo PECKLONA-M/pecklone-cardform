@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pecklonform.css">
+    <title>PECKLON REGISTRATION FORM</title>
+</head>
+<body>
+    <!-- This is the beginning of my form -->
+    <h1>PECKLON REGISTRATION FORM</h1>
+    <h3>Thank you very much for clicking this link. This form allows you specify everything you want for your PECKLON E-CARD. Please fill out exactly what you would like to see. Thank you.</h3>
+    <form>
+        <fieldset>
+        <label for="NameOfReceiver"> Name Of Receiver:<input type="text" id="NameOfReceiver" name="NameOfReceiver"  placeholder="Enter his/her name" required>
+            </label>
+            <label for="Relationship with receiver">Relationship with receiver:
+                <input type="text" id="Relationship with receiver" name="Relationship with receiver:" min width="12px" min height="3"  required>
+                     </label>
+
+        </fieldset>
+        <fieldset>
+             <label for="maincolour">What colours would you like to have on your PECKLON E-CARD?
+                        <input type="text" id="maincolour" name="maincolour" min width="12px" min height="3" placeholder="Enter the colour of your choice">
+                             </label>
+            <legend>
+                Any font preferences
+            <label for="yes"><input type="radio" class="inline" id="yes" name="account-type" checked >Yes</label>
+            <label for="no"><input type="radio"  class="inline" id="no" name="account-type">No</label>
+        </legend>
+        
+        </fieldset>
+<fieldset>
+    <label for="picture">Add pictures of the person:
+        <input type="file" id="picture" name="picture">
+    </label>
+    <label for="specialtext">What would you like to say to him/her? My grandmother likes to wear skirt, she don't know 
+    <textarea id="specialtext" min-width="12px" min-height="3"  rows="12" cols="10" name="specialtext" placeholder="Type in your letter to them"></textarea>
+</label>
+   <legend>
+                Would you like to add a song?
+            <label for="yes"><input type="radio" class="inline" id="yes" name="account-type" >Yes</label>
+            <label for="no"><input type="radio"  class="inline" id="no" name="account-type"checked >No</label>
+        </legend>
+<label for="email">Email:
+                                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+</label>
+
+    
+
+</fieldset>
+        <input type="submit">
+    </form>
+    </body>
+    </html>
